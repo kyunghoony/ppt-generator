@@ -341,13 +341,21 @@ class Renderer:
             run.text = metric.get("label", "")
             apply_text_style(run, font_body, 12, secondary)
 
-            # Value — 40pt bold primary (auto-fit for long text)
+            # Value — auto-fit based on text length + card count
             value_text = metric.get("value", "")
-            value_size = 40
+            if num <= 2:
+                size_map = (40, 32, 28)
+            elif num == 3:
+                size_map = (36, 28, 24)
+            else:
+                size_map = (32, 24, 20)
+
             if len(value_text) >= 10:
-                value_size = 24
+                value_size = size_map[2]
             elif len(value_text) >= 6:
-                value_size = 32
+                value_size = size_map[1]
+            else:
+                value_size = size_map[0]
 
             val_box = slide.shapes.add_textbox(
                 Inches(left + 0.3), Inches(card_top + 0.8),
