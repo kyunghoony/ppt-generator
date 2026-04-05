@@ -37,6 +37,34 @@
       "right_content": "Cons go here"
     },
     {
+      "type": "comparison",
+      "title": "Build vs Buy",
+      "left_label": "Build In-House",
+      "right_label": "Buy Solution",
+      "left_items": ["Full control over features", "Custom integrations", "Higher upfront cost"],
+      "right_items": ["Faster time to market", "Lower initial investment", "Vendor dependency"]
+    },
+    {
+      "type": "table",
+      "title": "Comparable Companies",
+      "headers": ["Company", "Revenue", "Growth", "Stage"],
+      "rows": [
+        ["Alpha Corp", "$12M", "45%", "Series B"],
+        ["Beta Inc", "$8M", "32%", "Series A"],
+        ["Gamma Ltd", "$22M", "28%", "Series C"]
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Project Milestones",
+      "events": [
+        {"date": "2026 Q1", "description": "Product launch"},
+        {"date": "2026 Q2", "description": "Series A funding"},
+        {"date": "2026 Q3", "description": "International expansion"},
+        {"date": "2026 Q4", "description": "IPO preparation"}
+      ]
+    },
+    {
       "type": "blank"
     }
   ]

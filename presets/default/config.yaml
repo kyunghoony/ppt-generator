@@ -10,6 +10,16 @@ colors:
   text_primary: "#1a1a2e"
   text_secondary: "#555555"
   text_light: "#FFFFFF"
+  card_background: "#F5F5F7"
+  accent_positive: "#16A34A"
+  accent_negative: "#DC2626"
+  divider: "#E5E7EB"
+chart_colors:
+  - "#1a1a2e"
+  - "#0f3460"
+  - "#16213e"
+  - "#e94560"
+  - "#533483"
 fonts:
   title: "Arial"
   body: "Arial"

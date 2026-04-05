@@ -22,6 +22,24 @@
       "title": "Investment Thesis",
       "body": "강력한 팀과 명확한 시장 기회.",
       "bullets": ["빠른 성장세", "높은 리텐션", "경쟁 우위 확보"]
+    },
+    {
+      "type": "comparison",
+      "title": "경쟁사 비교",
+      "left_label": "Company X",
+      "right_label": "경쟁사 평균",
+      "left_items": ["ARR ₩2.4B", "YoY 성장률 42%", "NRR 130%"],
+      "right_items": ["ARR ₩1.1B", "YoY 성장률 18%", "NRR 105%"]
+    },
+    {
+      "type": "timeline",
+      "title": "주요 마일스톤",
+      "events": [
+        {"date": "2024.03", "description": "시드 라운드 완료"},
+        {"date": "2024.12", "description": "PMF 달성"},
+        {"date": "2025.06", "description": "Series A ₩10B"},
+        {"date": "2026.04", "description": "딜소싱 검토"}
+      ]
     }
   ]
 }

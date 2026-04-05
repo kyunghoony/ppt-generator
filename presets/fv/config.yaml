@@ -10,6 +10,16 @@ colors:
   text_primary: "#111111"
   text_secondary: "#555555"
   text_light: "#FFFFFF"
+  card_background: "#F0F4F8"
+  accent_positive: "#16A34A"
+  accent_negative: "#DC2626"
+  divider: "#E5E7EB"
+chart_colors:
+  - "#001f3f"
+  - "#0074D9"
+  - "#003366"
+  - "#e94560"
+  - "#533483"
 fonts:
   title: "Pretendard"
   body: "Pretendard"
