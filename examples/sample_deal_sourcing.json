@@ -1,0 +1,27 @@
+{
+  "title": "Company X — Deal Sourcing",
+  "preset": "fv",
+  "template": "deal_sourcing",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Company X — Deal Sourcing",
+      "subtitle": "2026.04"
+    },
+    {
+      "type": "metrics",
+      "title": "Key Metrics",
+      "metrics": [
+        {"label": "ARR", "value": "₩2.4B", "delta": "+42% YoY"},
+        {"label": "Burn Rate", "value": "₩180M/mo", "delta": ""},
+        {"label": "Runway", "value": "14 months", "delta": ""}
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Investment Thesis",
+      "body": "강력한 팀과 명확한 시장 기회.",
+      "bullets": ["빠른 성장세", "높은 리텐션", "경쟁 우위 확보"]
+    }
+  ]
+}

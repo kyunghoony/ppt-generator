@@ -1,0 +1,34 @@
+name: "fv"
+slide_size:
+  width: 13.333
+  height: 7.5
+colors:
+  primary: "#001f3f"
+  secondary: "#003366"
+  accent: "#0074D9"
+  background: "#FFFFFF"
+  text_primary: "#111111"
+  text_secondary: "#555555"
+  text_light: "#FFFFFF"
+fonts:
+  title: "Pretendard"
+  body: "Pretendard"
+  code: "Courier New"
+  title_size: 28
+  body_size: 14
+  caption_size: 10
+spacing:
+  margin_left: 0.8
+  margin_right: 0.8
+  margin_top: 0.8
+  margin_bottom: 0.6
+  line_spacing: 1.2
+footer:
+  enabled: true
+  text: "Fast Ventures | Confidential"
+  show_page_number: true
+  show_date: true
+logo:
+  path: ""
+  position: "top_right"
+  width: 1.0

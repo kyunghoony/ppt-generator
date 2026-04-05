@@ -1,0 +1,6 @@
+extends: "config.yaml"
+name: "Portfolio Report"
+slides:
+  - type: title
+    defaults:
+      subtitle: "Portfolio Review"

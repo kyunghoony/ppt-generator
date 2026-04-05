@@ -1,0 +1,6 @@
+extends: "config.yaml"
+name: "Investment Decision Memo"
+slides:
+  - type: title
+    defaults:
+      subtitle: "Investment Decision Memo"

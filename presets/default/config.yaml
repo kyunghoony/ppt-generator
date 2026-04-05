@@ -1,0 +1,34 @@
+name: "default"
+slide_size:
+  width: 13.333  # inches (16:9)
+  height: 7.5
+colors:
+  primary: "#1a1a2e"
+  secondary: "#16213e"
+  accent: "#0f3460"
+  background: "#FFFFFF"
+  text_primary: "#1a1a2e"
+  text_secondary: "#555555"
+  text_light: "#FFFFFF"
+fonts:
+  title: "Arial"
+  body: "Arial"
+  code: "Courier New"
+  title_size: 28
+  body_size: 14
+  caption_size: 10
+spacing:
+  margin_left: 0.8  # inches
+  margin_right: 0.8
+  margin_top: 0.8
+  margin_bottom: 0.6
+  line_spacing: 1.2
+footer:
+  enabled: true
+  text: ""
+  show_page_number: true
+  show_date: true
+logo:
+  path: ""
+  position: "top_right"  # top_left, top_right, bottom_left, bottom_right
+  width: 1.0  # inches

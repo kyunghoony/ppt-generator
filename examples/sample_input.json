@@ -1,0 +1,43 @@
+{
+  "title": "Generic Pitch Deck",
+  "preset": "default",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Project Alpha",
+      "subtitle": "Q3 2026 Update"
+    },
+    {
+      "type": "content",
+      "title": "Executive Summary",
+      "body": "This is a summary of the project.",
+      "bullets": ["Point 1", "Point 2", "Point 3"]
+    },
+    {
+      "type": "metrics",
+      "title": "Key Performance Indicators",
+      "metrics": [
+        {"label": "Users", "value": "1.2M", "delta": "+15%"},
+        {"label": "Revenue", "value": "$4.5M", "delta": "+8%"}
+      ]
+    },
+    {
+      "type": "chart",
+      "title": "Revenue Growth",
+      "chart_type": "bar",
+      "labels": ["Q1", "Q2", "Q3"],
+      "data": {
+        "Series 1": [1.2, 2.3, 4.5]
+      }
+    },
+    {
+      "type": "two_column",
+      "title": "Pros and Cons",
+      "left_content": "Pros go here",
+      "right_content": "Cons go here"
+    },
+    {
+      "type": "blank"
+    }
+  ]
+}

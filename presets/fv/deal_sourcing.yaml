@@ -1,0 +1,25 @@
+extends: "config.yaml"
+name: "Deal Sourcing Deck"
+slides:
+  - type: title
+    defaults:
+      subtitle: "Deal Sourcing Report"
+  - type: section_divider
+    defaults:
+      title: "Company Overview"
+  - type: content
+    section: "company_overview"
+  - type: metrics
+    section: "key_metrics"
+  - type: chart
+    section: "financials"
+  - type: two_column
+    section: "market_analysis"
+  - type: content
+    section: "investment_thesis"
+  - type: table
+    section: "comparable_companies"
+  - type: content
+    section: "risks_and_mitigants"
+  - type: content
+    section: "next_steps"

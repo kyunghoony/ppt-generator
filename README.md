@@ -1,11 +1,22 @@
-<div align="center">
+# PPT Generator
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A universal PPT generation engine designed to be used primarily through Claude Code.
 
-  <h1>Built with AI Studio</h2>
+## Architecture Overview
+- **Engine is GENERIC**: Produces any PPT for any brand/use case.
+- **Presets**: Brand-specific styling is handled through PRESETS (YAML config + assets).
+- **Input**: Structured JSON (or natural language → JSON via Claude Code).
+- **Output**: `.pptx` file.
+- **Core Technology**: Built on `python-pptx`. No external API dependencies for core generation.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Quick Start
+```bash
+pip install -r requirements.txt
+python -m src.engine --input examples/sample_input.json --preset default --output output/result.pptx
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## How to Add Presets
+1. Create a new directory under `presets/`, e.g., `presets/mybrand/`.
+2. Add a `config.yaml` file with colors, fonts, and layout settings.
+3. Add any required assets to `presets/mybrand/assets/`.
+4. (Optional) Add deck templates like `pitch_deck.yaml`.
