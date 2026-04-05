@@ -341,7 +341,14 @@ class Renderer:
             run.text = metric.get("label", "")
             apply_text_style(run, font_body, 12, secondary)
 
-            # Value — 40pt bold primary
+            # Value — 40pt bold primary (auto-fit for long text)
+            value_text = metric.get("value", "")
+            value_size = 40
+            if len(value_text) >= 10:
+                value_size = 24
+            elif len(value_text) >= 6:
+                value_size = 32
+
             val_box = slide.shapes.add_textbox(
                 Inches(left + 0.3), Inches(card_top + 0.8),
                 Inches(card_w - 0.6), Inches(1.2)
@@ -350,8 +357,8 @@ class Renderer:
             tf.word_wrap = True
             p = tf.paragraphs[0]
             run = p.add_run()
-            run.text = metric.get("value", "")
-            apply_text_style(run, font_body, 40, primary)
+            run.text = value_text
+            apply_text_style(run, font_body, value_size, primary)
             run.font.bold = True
 
             # Delta — 14pt colored
